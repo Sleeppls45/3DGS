@@ -1,7 +1,7 @@
-#指南
+# README
 
-## 安装依赖
-`npm install`
+## 1. 安装依赖
+在 `/frontend` 文件目录下执行 `npm install`
 
-## 执行
-`npm run strat`
+## 2. 运行
+在 `/frontend` 文件目录下执行 `npm run strat`
