@@ -1,0 +1,71 @@
+.app {
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 98vw;
+    height: 96vh;
+    border-radius: 10px;
+}
+
+/* for two rows */
+.row {
+    margin-top: 2vh;
+    display: flex;
+    margin-left: 10vw;
+    gap: 2vw;
+}
+
+/* for toolbar */
+.tool {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+
+button {
+    width: 5vw;
+    margin-top: 1vh;
+    border-radius: 10px;
+}
+
+/* for block1-4 */
+.block {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 卡片阴影，增加立体感 */
+    transition: transform 0.3s ease-in-out; /* 平滑变换效果 */
+}
+
+.block:hover {
+    transform: translateY(-5px); /* 鼠标悬停时卡片上移，增强悬浮效果 */
+}
+
+#block1 {
+    width: 14vw;
+    height: 28vh;
+    margin-top: 12vh;
+}
+
+#block2 {
+    width: 14vw;
+    height: 28vh;
+    margin-top: 12vh;
+}
+
+#block3 {
+    width: 24vw;
+    height: 40vh;
+}
+
+#block4 {
+    width: 30vw;
+    height: 30vh;
+    margin-left: 7vw;
+}
