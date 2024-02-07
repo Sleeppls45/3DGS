@@ -3,5 +3,5 @@
 ## 安装依赖
 `npm install`
 
-##执行
+## 执行
 `npm run strat`
